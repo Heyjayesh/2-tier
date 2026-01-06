@@ -9,5 +9,5 @@ app.get('/api', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Backend running on http://localhost:${PORT}`);
+  console.log(`Backend running on http://204.236.194.31:${PORT}`);
 });

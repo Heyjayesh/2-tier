@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:5000/api')
+    fetch('http://204.236.194.31:5000/api')
       .then(res => res.json())
       .then(data => setMessage(data.message));
   }, []);
